@@ -27,7 +27,7 @@ export default function FriendForm(props) {
         <h2>Add a Friend</h2>
 
         {/* 🔥 DISABLE THE BUTTON */}
-        <button disabled={disabled}>submit</button>
+        <button id='submitBtn' disabled={disabled}>submit</button>
 
         <div className='errors'>
           {/* 🔥 RENDER THE VALIDATION ERRORS HERE */}
